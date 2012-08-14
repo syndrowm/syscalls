@@ -7,3 +7,5 @@ Out[2]: 2
 
 In [3]: syscalls.linux(2)
 Out[3]: 'fork'
+
+Currently supports freebsd, linux, netbsd, openbsd and osx
