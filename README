@@ -1,0 +1,9 @@
+Little library to resolve syscall numbers and names
+
+In [1]: import syscalls
+
+In [2]: syscalls.linux('fork')
+Out[2]: 2
+
+In [3]: syscalls.linux(2)
+Out[3]: 'fork'
